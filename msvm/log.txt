@@ -1,0 +1,1897 @@
+---------------------------------------
+[+] (0) step with vmkey 0xfaf1d7c599a70add 
+[+] analyzing handler 0x2dd at 0x8005dab8
+[+] new handler
+[+] eval_binding 8005dab8, finalize:true, complex:false
+
+[+] enable symbolic semantic
+[+] step semantic
+
+ctx_37 => ctx_f-28h
+ctx_0 => ctx_8
+rax => 0c1a8af482c9f2cech
+
+
+
+[+] enable symbolic execution
+[+] final binding
+
+ctx_37 => 9fffd8h
+ctx_0 => 0c000000000h
+rax => 0c1a8af482c9f2cech
+
+
+[+] updated context -------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 66666666h
+ctx_6 => 0
+ctx_7 => 0
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 0a00000h
+ctx_10 => 0
+ctx_11 => 0
+ctx_12 => 0c31c4f59a8645793h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 0
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 0
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 0
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 0
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0ff9caa0499d6acbeh
+ctx_28 => 0
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 0
+ctx_36 => 0
+ctx_37 => 9fffd8h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 0c1a8af482c9f2cech
+rcx => rcx
+rdx => 0faf1d7c599a70addh
+rbx => 0a00000h
+rsp => rsp
+rbp => rbp
+rsi => rsi
+rdi => 0faf1d7c599a70addh
+r8 => r8
+r9 => r9
+r10 => r10
+r11 => r11
+r12 => r12
+r13 => r13
+r14 => r14
+r15 => r15
+qword ptr [0a00000h] => 0
+
+
+
+
+---------------------------------------
+[+] (1) step with vmkey 0xc1a8af482c9f2cec 
+[+] analyzing handler 0x4ec at 0x80057ea8
+[+] new handler
+[+] eval_binding 80057ea8, finalize:true, complex:false
+
+[+] enable symbolic semantic
+[+] step semantic
+
+qword ptr [ctx_f+8] => 0
+qword ptr [ctx_f+10h] => 0
+qword ptr [ctx_f-8] => 0
+ctx_f => ctx_5
+ctx_5 => ctx_f-28h
+rax => 2742534ff86b50b4h
+
+
+
+[+] enable symbolic execution
+[+] final binding
+
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+ctx_f => 66666666h
+ctx_5 => 9fffd8h
+rax => 2742534ff86b50b4h
+
+
+[+] updated context -------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 9fffd8h
+ctx_6 => 0
+ctx_7 => 0
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 66666666h
+ctx_10 => 0
+ctx_11 => 0
+ctx_12 => 0c31c4f59a8645793h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 0
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 0
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 0
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 0
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0ff9caa0499d6acbeh
+ctx_28 => 0
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 0
+ctx_36 => 0
+ctx_37 => 9fffd8h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 2742534ff86b50b4h
+rcx => rcx
+rdx => 0c1a8af482c9f2cech
+rbx => 0a00000h
+rsp => rsp
+rbp => rbp
+rsi => rsi
+rdi => 0c1a8af482c9f2cech
+r8 => r8
+r9 => r9
+r10 => r10
+r11 => r11
+r12 => r12
+r13 => r13
+r14 => r14
+r15 => r15
+qword ptr [0a00000h] => 0
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+
+
+
+
+---------------------------------------
+[+] (2) step with vmkey 0x2742534ff86b50b4 
+[+] analyzing handler 0xb4 at 0x8006cad8
+[+] new handler
+[+] eval_binding 8006cad8, finalize:true, complex:false
+
+[+] enable symbolic semantic
+[+] step semantic
+
+ctx_34 => 0
+ctx_11 => ctx_0
+ctx_7 => ctx_f
+rax => (0f203a5c670635f79h*(ctx_0!=0))|(0f71fe2917c610797h*(-(ctx_0!=0))+0f71fe2917c610797h)
+
+
+
+[+] enable symbolic execution
+[+] final binding
+
+ctx_34 => 0
+ctx_11 => 0c000000000h
+ctx_7 => 66666666h
+rax => 0f203a5c670635f79h
+
+
+[+] updated context -------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 9fffd8h
+ctx_6 => 0
+ctx_7 => 66666666h
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 66666666h
+ctx_10 => 0
+ctx_11 => 0c000000000h
+ctx_12 => 0c31c4f59a8645793h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 0
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 0
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 0
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 0
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0ff9caa0499d6acbeh
+ctx_28 => 0
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 0
+ctx_36 => 0
+ctx_37 => 9fffd8h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 0f203a5c670635f79h
+rcx => rcx
+rdx => 2742534ff86b50b4h
+rbx => 0a00000h
+rsp => rsp
+rbp => rbp
+rsi => rsi
+rdi => 2742534ff86b50b4h
+r8 => r8
+r9 => r9
+r10 => r10
+r11 => r11
+r12 => r12
+r13 => r13
+r14 => r14
+r15 => r15
+qword ptr [0a00000h] => 0
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+
+
+
+
+---------------------------------------
+[+] (3) step with vmkey 0xf203a5c670635f79 
+[+] analyzing handler 0x779 at 0x800588f4
+[+] new handler
+[+] eval_binding 800588f4, finalize:false, complex:false
+
+[+] enable symbolic execution
+[+] updated context (simulation)-------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 9fffd8h
+ctx_6 => 0
+ctx_7 => 66666666h
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 66666666h
+ctx_10 => 0
+ctx_11 => 0c000000000h
+ctx_12 => 0c31c4f59a8645793h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 0
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 0
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 0
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 0
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0ff9caa0499d6acbeh
+ctx_28 => 0
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 0
+ctx_36 => 0
+ctx_37 => 9fffd8h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 0ch
+rcx => rcx
+rdx => 58046202h
+rbx => 1
+rsp => rsp-58h
+rbp => 0f203a5c6h
+rsi => 66666666h
+rdi => 0d7c3809dh
+r8 => 80082ae8h
+r9 => 0
+r10 => 27409257h
+r11 => rcx
+r12 => 0f203a5c670635f79h
+r13 => 81a0464dh
+r14 => 0c000000000h
+r15 => 57h
+qword ptr [0a00000h] => 0
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+qword ptr [rsp+20h] => 0a00000h
+qword ptr [rsp+8] => rcx
+qword ptr [rsp] => rbp
+qword ptr [rsp-8] => rsi
+qword ptr [rsp-10h] => 0f203a5c670635f79h
+qword ptr [rsp-18h] => r12
+qword ptr [rsp-20h] => r13
+qword ptr [rsp-28h] => r14
+qword ptr [rsp-30h] => r15
+dword ptr [rsp+10h] => 27409257h
+qword ptr [rsp+18h] => 0
+dword ptr [0c000000004h] => 1
+dword ptr [0c000000008h] => 1
+dword ptr [0c000000010h] => 66666667h
+dword ptr [0c00000000ch] => 0
+
+
+  [+] key 0x58046202
+  [+] scramble word 0x57034107
+  [+] permutations word 0xf072305, ["5", "23", "7", "f"]
+  [+]  ctx_23 = ctx_5
+  [+]  ctx_f = ctx_7
+  [+] key 0xda2abf55
+  [+] scramble word 0xc81b9661
+  [+] permutations word 0x12312934, ["34", "29", "31", "12"]
+  [+]  ctx_29 = ctx_34
+  [+]  ctx_12 = ctx_31
+
+[+] enable symbolic execution
+[+] final binding
+
+ctx_23 => 9fffd8h
+ctx_f => 66666666h
+ctx_29 => 0
+ctx_12 => 0a00000h
+
+
+[+] updated context -------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 9fffd8h
+ctx_6 => 0
+ctx_7 => 66666666h
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 66666666h
+ctx_10 => 0
+ctx_11 => 0c000000000h
+ctx_12 => 0a00000h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 0
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 0
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 0
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 9fffd8h
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0ff9caa0499d6acbeh
+ctx_28 => 0
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 0
+ctx_36 => 0
+ctx_37 => 9fffd8h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 779h
+rcx => rcx
+rdx => 0f203a5c670635f79h
+rbx => 0a00000h
+rsp => rsp
+rbp => rbp
+rsi => rsi
+rdi => 0f203a5c670635f79h
+r8 => r8
+r9 => r9
+r10 => r10
+r11 => r11
+r12 => r12
+r13 => r13
+r14 => r14
+r15 => r15
+qword ptr [0a00000h] => 0
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+
+
+[+] new handler
+[+] eval_binding 800588f4, finalize:true, complex:false
+
+[+] enable symbolic semantic
+[+] step semantic
+
+dword ptr [ctx_0+4] => 1
+dword ptr [ctx_0+8] => 1
+dword ptr [ctx_0+10h] => (ctx_7+1)&0ffffffffh
+dword ptr [ctx_0+0ch] => ctx_34&0ffffffffh
+dword ptr [ctx_0+14h] => ctx_34&0ffffffffh
+dword ptr [ctx_0+18h] => ctx_34&0ffffffffh
+dword ptr [ctx_0+1ch] => ctx_34&0ffffffffh
+dword ptr [ctx_0+20h] => (ctx_7+2)&0ffffffffh
+dword ptr [ctx_0+24h] => ctx_34&0ffffffffh
+dword ptr [ctx_0+28h] => ctx_34&0ffffffffh
+dword ptr [ctx_0] => ctx_7&0ffffffffh
+dword ptr [ctx_0+2ch] => ctx_34&0ffffffffh
+ctx_1d => 80083030h
+ctx_5 => ctx_34&0ffffffffh
+ctx_15 => 3
+rax => 780467568199cd1dh
+
+
+
+[+] enable symbolic execution
+[+] final binding
+
+dword ptr [0c000000004h] => 1
+dword ptr [0c000000008h] => 1
+dword ptr [0c000000010h] => 66666667h
+dword ptr [0c00000000ch] => 0
+dword ptr [0c000000014h] => 0
+dword ptr [0c000000018h] => 0
+dword ptr [0c00000001ch] => 0
+dword ptr [0c000000020h] => 66666668h
+dword ptr [0c000000024h] => 0
+dword ptr [0c000000028h] => 0
+dword ptr [0c000000000h] => 66666666h
+dword ptr [0c00000002ch] => 0
+ctx_1d => 80083030h
+ctx_5 => 0
+ctx_15 => 3
+rax => 780467568199cd1dh
+
+
+[+] updated context -------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 0
+ctx_6 => 0
+ctx_7 => 66666666h
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 66666666h
+ctx_10 => 0
+ctx_11 => 0c000000000h
+ctx_12 => 0a00000h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 3
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 80083030h
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 0
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 9fffd8h
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0ff9caa0499d6acbeh
+ctx_28 => 0
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 0
+ctx_36 => 0
+ctx_37 => 9fffd8h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 780467568199cd1dh
+rcx => rcx
+rdx => 0f203a5c670635f79h
+rbx => 0a00000h
+rsp => rsp
+rbp => rbp
+rsi => rsi
+rdi => 0f203a5c670635f79h
+r8 => r8
+r9 => r9
+r10 => r10
+r11 => r11
+r12 => r12
+r13 => r13
+r14 => r14
+r15 => r15
+qword ptr [0a00000h] => 0
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+dword ptr [0c000000004h] => 1
+dword ptr [0c000000008h] => 1
+dword ptr [0c000000010h] => 66666667h
+dword ptr [0c00000000ch] => 0
+dword ptr [0c000000014h] => 0
+dword ptr [0c000000018h] => 0
+dword ptr [0c00000001ch] => 0
+dword ptr [0c000000020h] => 66666668h
+dword ptr [0c000000024h] => 0
+dword ptr [0c000000028h] => 0
+dword ptr [0c000000000h] => 66666666h
+dword ptr [0c00000002ch] => 0
+
+
+
+
+---------------------------------------
+[+] (4) step with vmkey 0x780467568199cd1d 
+[+] analyzing handler 0x51d at 0x8005420c
+[+] new handler
+[+] eval_binding 8005420c, finalize:true, complex:false
+
+[+] enable symbolic semantic
+[+] step semantic
+
+dword ptr [ctx_1d] => (((ctx_f&0ffffffffh)+ctx_5)^-79ade008h)&0ffffffffh
+ctx_5 => (ctx_5+1)&0ffffffffh
+ctx_1d => ctx_1d+4
+rax => (780467568199cd1dh*(!(((ctx_15&0ffffffffh)<((ctx_5+1)&0ffffffffh))|(((ctx_15-((ctx_5+1)&0ffffffffh))&0ffffffffh)==0))))|(0c973223a1f22f9fbh*(-(!(((ctx_15&0ffffffffh)<((ctx_5+1)&0ffffffffh))|(((ctx_15-((ctx_5+1)&0ffffffffh))&0ffffffffh)==0))))+0c973223a1f22f9fbh)
+
+
+
+[+] enable symbolic execution
+[+] final binding
+
+dword ptr [80083030h] => 0e034799eh
+ctx_5 => 1
+ctx_1d => 80083034h
+rax => 780467568199cd1dh
+
+
+[+] updated context -------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 1
+ctx_6 => 0
+ctx_7 => 66666666h
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 66666666h
+ctx_10 => 0
+ctx_11 => 0c000000000h
+ctx_12 => 0a00000h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 3
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 80083034h
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 0
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 9fffd8h
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0ff9caa0499d6acbeh
+ctx_28 => 0
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 0
+ctx_36 => 0
+ctx_37 => 9fffd8h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 780467568199cd1dh
+rcx => rcx
+rdx => 780467568199cd1dh
+rbx => 0a00000h
+rsp => rsp
+rbp => rbp
+rsi => rsi
+rdi => 780467568199cd1dh
+r8 => r8
+r9 => r9
+r10 => r10
+r11 => r11
+r12 => r12
+r13 => r13
+r14 => r14
+r15 => r15
+qword ptr [0a00000h] => 0
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+dword ptr [0c000000004h] => 1
+dword ptr [0c000000008h] => 1
+dword ptr [0c000000010h] => 66666667h
+dword ptr [0c00000000ch] => 0
+dword ptr [0c000000014h] => 0
+dword ptr [0c000000018h] => 0
+dword ptr [0c00000001ch] => 0
+dword ptr [0c000000020h] => 66666668h
+dword ptr [0c000000024h] => 0
+dword ptr [0c000000028h] => 0
+dword ptr [0c000000000h] => 66666666h
+dword ptr [0c00000002ch] => 0
+dword ptr [80083030h] => 0e034799eh
+
+
+
+
+---------------------------------------
+[+] (5) step with vmkey 0x780467568199cd1d 
+[+] analyzing handler 0x51d at 0x8005420c
+[+] cached handler binding
+
+[+] enable symbolic semantic
+[+] step semantic
+
+dword ptr [ctx_1d] => (((ctx_f&0ffffffffh)+ctx_5)^-79ade008h)&0ffffffffh
+ctx_5 => (ctx_5+1)&0ffffffffh
+ctx_1d => ctx_1d+4
+rax => (780467568199cd1dh*(!(((ctx_15&0ffffffffh)<((ctx_5+1)&0ffffffffh))|(((ctx_15-((ctx_5+1)&0ffffffffh))&0ffffffffh)==0))))|(0c973223a1f22f9fbh*(-(!(((ctx_15&0ffffffffh)<((ctx_5+1)&0ffffffffh))|(((ctx_15-((ctx_5+1)&0ffffffffh))&0ffffffffh)==0))))+0c973223a1f22f9fbh)
+
+
+
+[+] enable symbolic execution
+[+] final binding
+
+dword ptr [80083034h] => 0e034799fh
+ctx_5 => 2
+ctx_1d => 80083038h
+rax => 780467568199cd1dh
+
+
+[+] updated context -------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 2
+ctx_6 => 0
+ctx_7 => 66666666h
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 66666666h
+ctx_10 => 0
+ctx_11 => 0c000000000h
+ctx_12 => 0a00000h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 3
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 80083038h
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 0
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 9fffd8h
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0ff9caa0499d6acbeh
+ctx_28 => 0
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 0
+ctx_36 => 0
+ctx_37 => 9fffd8h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 780467568199cd1dh
+rcx => rcx
+rdx => 780467568199cd1dh
+rbx => 0a00000h
+rsp => rsp
+rbp => rbp
+rsi => rsi
+rdi => 780467568199cd1dh
+r8 => r8
+r9 => r9
+r10 => r10
+r11 => r11
+r12 => r12
+r13 => r13
+r14 => r14
+r15 => r15
+qword ptr [0a00000h] => 0
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+dword ptr [0c000000004h] => 1
+dword ptr [0c000000008h] => 1
+dword ptr [0c000000010h] => 66666667h
+dword ptr [0c00000000ch] => 0
+dword ptr [0c000000014h] => 0
+dword ptr [0c000000018h] => 0
+dword ptr [0c00000001ch] => 0
+dword ptr [0c000000020h] => 66666668h
+dword ptr [0c000000024h] => 0
+dword ptr [0c000000028h] => 0
+dword ptr [0c000000000h] => 66666666h
+dword ptr [0c00000002ch] => 0
+dword ptr [80083030h] => 0e034799eh
+dword ptr [80083034h] => 0e034799fh
+
+
+
+
+---------------------------------------
+[+] (6) step with vmkey 0x780467568199cd1d 
+[+] analyzing handler 0x51d at 0x8005420c
+[+] cached handler binding
+
+[+] enable symbolic semantic
+[+] step semantic
+
+dword ptr [ctx_1d] => (((ctx_f&0ffffffffh)+ctx_5)^-79ade008h)&0ffffffffh
+ctx_5 => (ctx_5+1)&0ffffffffh
+ctx_1d => ctx_1d+4
+rax => (780467568199cd1dh*(!(((ctx_15&0ffffffffh)<((ctx_5+1)&0ffffffffh))|(((ctx_15-((ctx_5+1)&0ffffffffh))&0ffffffffh)==0))))|(0c973223a1f22f9fbh*(-(!(((ctx_15&0ffffffffh)<((ctx_5+1)&0ffffffffh))|(((ctx_15-((ctx_5+1)&0ffffffffh))&0ffffffffh)==0))))+0c973223a1f22f9fbh)
+
+
+
+[+] enable symbolic execution
+[+] final binding
+
+dword ptr [80083038h] => 0e0347990h
+ctx_5 => 3
+ctx_1d => 8008303ch
+rax => 0c973223a1f22f9fbh
+
+
+[+] updated context -------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 3
+ctx_6 => 0
+ctx_7 => 66666666h
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 66666666h
+ctx_10 => 0
+ctx_11 => 0c000000000h
+ctx_12 => 0a00000h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 3
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 8008303ch
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 0
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 9fffd8h
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0ff9caa0499d6acbeh
+ctx_28 => 0
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 0
+ctx_36 => 0
+ctx_37 => 9fffd8h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 0c973223a1f22f9fbh
+rcx => rcx
+rdx => 780467568199cd1dh
+rbx => 0a00000h
+rsp => rsp
+rbp => rbp
+rsi => rsi
+rdi => 780467568199cd1dh
+r8 => r8
+r9 => r9
+r10 => r10
+r11 => r11
+r12 => r12
+r13 => r13
+r14 => r14
+r15 => r15
+qword ptr [0a00000h] => 0
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+dword ptr [0c000000004h] => 1
+dword ptr [0c000000008h] => 1
+dword ptr [0c000000010h] => 66666667h
+dword ptr [0c00000000ch] => 0
+dword ptr [0c000000014h] => 0
+dword ptr [0c000000018h] => 0
+dword ptr [0c00000001ch] => 0
+dword ptr [0c000000020h] => 66666668h
+dword ptr [0c000000024h] => 0
+dword ptr [0c000000028h] => 0
+dword ptr [0c000000000h] => 66666666h
+dword ptr [0c00000002ch] => 0
+dword ptr [80083030h] => 0e034799eh
+dword ptr [80083034h] => 0e034799fh
+dword ptr [80083038h] => 0e0347990h
+
+
+
+
+---------------------------------------
+[+] (7) step with vmkey 0xc973223a1f22f9fb 
+[+] analyzing handler 0x1fb at 0x8006c834
+[+] new handler
+[+] eval_binding 8006c834, finalize:false, complex:false
+
+[+] enable symbolic execution
+[+] updated context (simulation)-------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 3
+ctx_6 => 0
+ctx_7 => 66666666h
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 66666666h
+ctx_10 => 0
+ctx_11 => 0c000000000h
+ctx_12 => 0a00000h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 3
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 8008303ch
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 0
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 9fffd8h
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0ff9caa0499d6acbeh
+ctx_28 => 0
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 0
+ctx_36 => 0
+ctx_37 => 9fffd8h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 23h
+rcx => rcx
+rdx => 37ed4b04h
+rbx => 9fffd8h
+rsp => rsp-28h
+rbp => rbp
+rsi => 0aa50283fh
+rdi => 92f5f09eh
+r8 => 80082b68h
+r9 => r9
+r10 => r10
+r11 => r11
+r12 => r12
+r13 => r13
+r14 => rcx
+r15 => r15
+qword ptr [0a00000h] => 0
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+dword ptr [0c000000004h] => 1
+dword ptr [0c000000008h] => 1
+dword ptr [0c000000010h] => 66666667h
+dword ptr [0c00000000ch] => 0
+dword ptr [0c000000014h] => 0
+dword ptr [0c000000018h] => 0
+dword ptr [0c00000001ch] => 0
+dword ptr [0c000000020h] => 66666668h
+dword ptr [0c000000024h] => 0
+dword ptr [0c000000028h] => 0
+dword ptr [0c000000000h] => 66666666h
+dword ptr [0c00000002ch] => 0
+dword ptr [80083030h] => 0e034799eh
+dword ptr [80083034h] => 0e034799fh
+dword ptr [80083038h] => 0e0347990h
+qword ptr [rsp+8] => 0a00000h
+qword ptr [rsp+10h] => rsi
+qword ptr [rsp+18h] => 0c973223a1f22f9fbh
+qword ptr [rsp] => r14
+
+
+  [+] key 0x37ed4b04
+  [+] scramble word 0x2f86315
+  [+] permutations word 0x35152811, ["11", "28", "15", "35"]
+  [+]  ctx_28 = ctx_11
+  [+]  ctx_35 = ctx_15
+  [+] key 0xeead1951
+  [+] scramble word 0xce8e0478
+  [+] permutations word 0x20231d29, ["29", "1d", "23", "20"]
+  [+]  ctx_1d = ctx_29
+  [+]  ctx_20 = ctx_23
+  [+] key 0x88e086cb
+  [+] scramble word 0x8fd6aff9
+  [+] permutations word 0x7362932, ["32", "29", "36", "7"]
+  [+]  ctx_29 = ctx_32
+  [+]  ctx_7 = ctx_36
+  [+] key 0x5d4e4fb3
+  [+] scramble word 0x4b457fbb
+  [+] permutations word 0x160b3008, ["8", "30", "b", "16"]
+  [+]  ctx_30 = ctx_8
+  [+]  ctx_16 = ctx_b
+
+[+] enable symbolic execution
+[+] final binding
+
+ctx_28 => 0c000000000h
+ctx_35 => 3
+ctx_1d => 0
+ctx_20 => 9fffd8h
+ctx_29 => 0
+ctx_7 => 0
+ctx_30 => 0c000000000h
+ctx_16 => 0
+
+
+[+] updated context -------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 3
+ctx_6 => 0
+ctx_7 => 0
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 66666666h
+ctx_10 => 0
+ctx_11 => 0c000000000h
+ctx_12 => 0a00000h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 3
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 0
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 9fffd8h
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 9fffd8h
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0ff9caa0499d6acbeh
+ctx_28 => 0c000000000h
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0c000000000h
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 3
+ctx_36 => 0
+ctx_37 => 9fffd8h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 1fbh
+rcx => rcx
+rdx => 0c973223a1f22f9fbh
+rbx => 0a00000h
+rsp => rsp
+rbp => rbp
+rsi => rsi
+rdi => 0c973223a1f22f9fbh
+r8 => r8
+r9 => r9
+r10 => r10
+r11 => r11
+r12 => r12
+r13 => r13
+r14 => r14
+r15 => r15
+qword ptr [0a00000h] => 0
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+dword ptr [0c000000004h] => 1
+dword ptr [0c000000008h] => 1
+dword ptr [0c000000010h] => 66666667h
+dword ptr [0c00000000ch] => 0
+dword ptr [0c000000014h] => 0
+dword ptr [0c000000018h] => 0
+dword ptr [0c00000001ch] => 0
+dword ptr [0c000000020h] => 66666668h
+dword ptr [0c000000024h] => 0
+dword ptr [0c000000028h] => 0
+dword ptr [0c000000000h] => 66666666h
+dword ptr [0c00000002ch] => 0
+dword ptr [80083030h] => 0e034799eh
+dword ptr [80083034h] => 0e034799fh
+dword ptr [80083038h] => 0e0347990h
+
+
+[+] new handler
+[+] eval_binding 8006c834, finalize:true, complex:false
+
+[+] enable symbolic semantic
+[+] step semantic
+
+ctx_37 => ctx_23-8
+rax => 0cc9dd91018540215h
+
+
+
+[+] enable symbolic execution
+[+] final binding
+
+ctx_37 => 9fffd0h
+rax => 0cc9dd91018540215h
+
+
+[+] updated context -------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 3
+ctx_6 => 0
+ctx_7 => 0
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 66666666h
+ctx_10 => 0
+ctx_11 => 0c000000000h
+ctx_12 => 0a00000h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 3
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 0
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 9fffd8h
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 9fffd8h
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0ff9caa0499d6acbeh
+ctx_28 => 0c000000000h
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0c000000000h
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 3
+ctx_36 => 0
+ctx_37 => 9fffd0h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 0cc9dd91018540215h
+rcx => rcx
+rdx => 0c973223a1f22f9fbh
+rbx => 0a00000h
+rsp => rsp
+rbp => rbp
+rsi => rsi
+rdi => 0c973223a1f22f9fbh
+r8 => r8
+r9 => r9
+r10 => r10
+r11 => r11
+r12 => r12
+r13 => r13
+r14 => r14
+r15 => r15
+qword ptr [0a00000h] => 0
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+dword ptr [0c000000004h] => 1
+dword ptr [0c000000008h] => 1
+dword ptr [0c000000010h] => 66666667h
+dword ptr [0c00000000ch] => 0
+dword ptr [0c000000014h] => 0
+dword ptr [0c000000018h] => 0
+dword ptr [0c00000001ch] => 0
+dword ptr [0c000000020h] => 66666668h
+dword ptr [0c000000024h] => 0
+dword ptr [0c000000028h] => 0
+dword ptr [0c000000000h] => 66666666h
+dword ptr [0c00000002ch] => 0
+dword ptr [80083030h] => 0e034799eh
+dword ptr [80083034h] => 0e034799fh
+dword ptr [80083038h] => 0e0347990h
+
+
+
+
+---------------------------------------
+[+] (8) step with vmkey 0xcc9dd91018540215 
+[+] analyzing handler 0x215 at 0x80062280
+[+] new handler
+[+] eval_binding 80062280, finalize:true, complex:false
+
+[+] enable symbolic semantic
+[+] step semantic
+
+qword ptr [ctx_20-8] => 0d412fda9f73b76f5h
+ctx_21 => ctx_16
+ctx_f => ctx_20-8
+ctx_8 => ctx_28
+ctx_5 => ctx_28
+rax => 8fe0370f8afc6a4dh
+
+
+
+[+] enable symbolic execution
+[+] final binding
+
+qword ptr [9fffd0h] => 0d412fda9f73b76f5h
+ctx_21 => 0
+ctx_f => 9fffd0h
+ctx_8 => 0c000000000h
+ctx_5 => 0c000000000h
+rax => 8fe0370f8afc6a4dh
+
+
+[+] updated context -------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 0c000000000h
+ctx_6 => 0
+ctx_7 => 0
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 9fffd0h
+ctx_10 => 0
+ctx_11 => 0c000000000h
+ctx_12 => 0a00000h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 3
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 0
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 9fffd8h
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 9fffd8h
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0ff9caa0499d6acbeh
+ctx_28 => 0c000000000h
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0c000000000h
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 3
+ctx_36 => 0
+ctx_37 => 9fffd0h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 8fe0370f8afc6a4dh
+rcx => rcx
+rdx => 0cc9dd91018540215h
+rbx => 0a00000h
+rsp => rsp
+rbp => rbp
+rsi => rsi
+rdi => 0cc9dd91018540215h
+r8 => r8
+r9 => r9
+r10 => r10
+r11 => r11
+r12 => r12
+r13 => r13
+r14 => r14
+r15 => r15
+qword ptr [0a00000h] => 0
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+dword ptr [0c000000004h] => 1
+dword ptr [0c000000008h] => 1
+dword ptr [0c000000010h] => 66666667h
+dword ptr [0c00000000ch] => 0
+dword ptr [0c000000014h] => 0
+dword ptr [0c000000018h] => 0
+dword ptr [0c00000001ch] => 0
+dword ptr [0c000000020h] => 66666668h
+dword ptr [0c000000024h] => 0
+dword ptr [0c000000028h] => 0
+dword ptr [0c000000000h] => 66666666h
+dword ptr [0c00000002ch] => 0
+dword ptr [80083030h] => 0e034799eh
+dword ptr [80083034h] => 0e034799fh
+dword ptr [80083038h] => 0e0347990h
+qword ptr [9fffd0h] => 0d412fda9f73b76f5h
+
+
+
+
+---------------------------------------
+[+] (9) step with vmkey 0x8fe0370f8afc6a4d 
+[+] analyzing handler 0x24d at 0x80077950
+[+] new handler
+[+] eval_binding 80077950, finalize:true, complex:false
+
+[+] enable symbolic semantic
+[+] step semantic
+
+ctx_37 => ctx_f-98h
+ctx_2e => ctx_21
+rax => 0c24d8b3560251891h
+
+
+
+[+] enable symbolic execution
+[+] final binding
+
+ctx_37 => 9fff38h
+ctx_2e => 0
+rax => 0c24d8b3560251891h
+
+
+[+] updated context -------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 0c000000000h
+ctx_6 => 0
+ctx_7 => 0
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 9fffd0h
+ctx_10 => 0
+ctx_11 => 0c000000000h
+ctx_12 => 0a00000h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 3
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 0
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 9fffd8h
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 9fffd8h
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0ff9caa0499d6acbeh
+ctx_28 => 0c000000000h
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0c000000000h
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 3
+ctx_36 => 0
+ctx_37 => 9fff38h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 0c24d8b3560251891h
+rcx => rcx
+rdx => 8fe0370f8afc6a4dh
+rbx => 0a00000h
+rsp => rsp
+rbp => rbp
+rsi => rsi
+rdi => 8fe0370f8afc6a4dh
+r8 => r8
+r9 => r9
+r10 => r10
+r11 => r11
+r12 => r12
+r13 => r13
+r14 => r14
+r15 => r15
+qword ptr [0a00000h] => 0
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+dword ptr [0c000000004h] => 1
+dword ptr [0c000000008h] => 1
+dword ptr [0c000000010h] => 66666667h
+dword ptr [0c00000000ch] => 0
+dword ptr [0c000000014h] => 0
+dword ptr [0c000000018h] => 0
+dword ptr [0c00000001ch] => 0
+dword ptr [0c000000020h] => 66666668h
+dword ptr [0c000000024h] => 0
+dword ptr [0c000000028h] => 0
+dword ptr [0c000000000h] => 66666666h
+dword ptr [0c00000002ch] => 0
+dword ptr [80083030h] => 0e034799eh
+dword ptr [80083034h] => 0e034799fh
+dword ptr [80083038h] => 0e0347990h
+qword ptr [9fffd0h] => 0d412fda9f73b76f5h
+
+
+
+
+---------------------------------------
+[+] (a) step with vmkey 0xc24d8b3560251891 
+[+] analyzing handler 0x91 at 0x8004ec18
+[+] new handler
+[+] eval_binding 8004ec18, finalize:true, complex:false
+
+[+] enable symbolic semantic
+[+] step semantic
+
+qword ptr [ctx_f+8] => ctx_28
+qword ptr [ctx_f+18h] => ctx_7
+qword ptr [ctx_f+20h] => ctx_35
+qword ptr [ctx_f-8] => ctx_1d
+qword ptr [ctx_f-10h] => ctx_22
+qword ptr [ctx_f-18h] => ctx_30
+qword ptr [ctx_f-20h] => ctx_2e
+qword ptr [ctx_f-28h] => ctx_29
+ctx_1d => ctx_f-98h
+ctx_27 => ctx_8
+rax => 0df8d7502fbd2e207h
+
+
+
+[+] enable symbolic execution
+[+] final binding
+
+qword ptr [9fffd8h] => 0c000000000h
+qword ptr [9fffe8h] => 0
+qword ptr [9ffff0h] => 3
+qword ptr [9fffc8h] => 0
+qword ptr [9fffc0h] => 0
+qword ptr [9fffb8h] => 0c000000000h
+qword ptr [9fffb0h] => 0
+qword ptr [9fffa8h] => 0
+ctx_1d => 9fff38h
+ctx_27 => 0c000000000h
+rax => 0df8d7502fbd2e207h
+
+
+[+] updated context -------------------
+
+ctx_0 => 0c000000000h
+ctx_1 => 0
+ctx_2 => 0
+ctx_3 => 0
+ctx_4 => 0
+ctx_5 => 0c000000000h
+ctx_6 => 0
+ctx_7 => 0
+ctx_8 => 0c000000000h
+ctx_9 => 0
+ctx_a => 0
+ctx_b => 0
+ctx_c => 0
+ctx_d => 0
+ctx_e => 0
+ctx_f => 9fffd0h
+ctx_10 => 0
+ctx_11 => 0c000000000h
+ctx_12 => 0a00000h
+ctx_13 => 0
+ctx_14 => 0
+ctx_15 => 3
+ctx_16 => 0
+ctx_17 => 0
+ctx_18 => 0
+ctx_19 => 0
+ctx_1a => 0
+ctx_1b => 0
+ctx_1c => 0
+ctx_1d => 9fff38h
+ctx_1e => 0
+ctx_1f => 0
+ctx_20 => 9fffd8h
+ctx_21 => 0
+ctx_22 => 0
+ctx_23 => 9fffd8h
+ctx_24 => 0
+ctx_25 => 0
+ctx_26 => 0
+ctx_27 => 0c000000000h
+ctx_28 => 0c000000000h
+ctx_29 => 0
+ctx_2a => 0
+ctx_2b => 0
+ctx_2c => 0
+ctx_2d => 0
+ctx_2e => 0
+ctx_2f => 0
+ctx_30 => 0c000000000h
+ctx_31 => 0a00000h
+ctx_32 => 0
+ctx_33 => 0
+ctx_34 => 0
+ctx_35 => 3
+ctx_36 => 0
+ctx_37 => 9fff38h
+ctx_38 => 0
+ctx_39 => 0
+ctx_3a => 0
+ctx_3b => 0
+ctx_3c => 0
+ctx_3d => 0
+ctx_3e => 0
+ctx_3f => 0
+TBOX_TABLE => 8007b080h
+rax => 0df8d7502fbd2e207h
+rcx => rcx
+rdx => 0c24d8b3560251891h
+rbx => 0a00000h
+rsp => rsp
+rbp => rbp
+rsi => rsi
+rdi => 0c24d8b3560251891h
+r8 => r8
+r9 => r9
+r10 => r10
+r11 => r11
+r12 => r12
+r13 => r13
+r14 => r14
+r15 => r15
+qword ptr [0a00000h] => 0
+qword ptr [0a00008h] => 0
+qword ptr [0a00010h] => 0
+qword ptr [9ffff8h] => 0
+dword ptr [0c000000004h] => 1
+dword ptr [0c000000008h] => 1
+dword ptr [0c000000010h] => 66666667h
+dword ptr [0c00000000ch] => 0
+dword ptr [0c000000014h] => 0
+dword ptr [0c000000018h] => 0
+dword ptr [0c00000001ch] => 0
+dword ptr [0c000000020h] => 66666668h
+dword ptr [0c000000024h] => 0
+dword ptr [0c000000028h] => 0
+dword ptr [0c000000000h] => 66666666h
+dword ptr [0c00000002ch] => 0
+dword ptr [80083030h] => 0e034799eh
+dword ptr [80083034h] => 0e034799fh
+dword ptr [80083038h] => 0e0347990h
+qword ptr [9fffd0h] => 0d412fda9f73b76f5h
+qword ptr [9fffd8h] => 0c000000000h
+qword ptr [9fffe8h] => 0
+qword ptr [9ffff0h] => 3
+qword ptr [9fffc8h] => 0
+qword ptr [9fffc0h] => 0
+qword ptr [9fffb8h] => 0c000000000h
+qword ptr [9fffb0h] => 0
+qword ptr [9fffa8h] => 0

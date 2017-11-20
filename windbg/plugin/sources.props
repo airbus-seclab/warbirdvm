@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TARGETNAME Condition="'$(OVERRIDE_TARGETNAME)'!='true'">store</TARGETNAME>
+    <TARGETTYPE Condition="'$(OVERRIDE_TARGETTYPE)'!='true'">DYNLINK</TARGETTYPE>
+    <DLLENTRY Condition="'$(OVERRIDE_DLLENTRY)'!='true'">_DllMainCRTStartup</DLLENTRY>
+  </PropertyGroup>
+  <Choose>
+    <When Condition="'$(DBGSDK_INC_PATH)'!=''">
+      <PropertyGroup>
+        <INCLUDES Condition="'$(OVERRIDE_INCLUDES)'!='true'">$(DBGSDK_INC_PATH);$(INCLUDES)</INCLUDES>
+      </PropertyGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="'$(DBGSDK_LIB_PATH)'==''">
+      <PropertyGroup>
+        <DBGSDK_LIB_PATH Condition="'$(OVERRIDE_DBGSDK_LIB_PATH)'!='true'">$(SDK_LIB_PATH)</DBGSDK_LIB_PATH>
+      </PropertyGroup>
+    </When>
+    <Otherwise>
+      <PropertyGroup>
+        <DBGSDK_LIB_PATH Condition="'$(OVERRIDE_DBGSDK_LIB_PATH)'!='true'">$(DBGSDK_LIB_PATH)\$(TARGET_DIRECTORY)</DBGSDK_LIB_PATH>
+      </PropertyGroup>
+    </Otherwise>
+  </Choose>
+  <Choose>
+    <When Condition="'$(_NT_TARGET_VERSION)'=='$(_NT_TARGET_VERSION_WINXP)'">
+      <PropertyGroup>
+        <C_DEFINES Condition="'$(OVERRIDE_C_DEFINES)'!='true'">$(C_DEFINES) -D_NT_TARGET_VERSION_WINXPOR2K3=1</C_DEFINES>
+      </PropertyGroup>
+    </When>
+    <When Condition="'$(_NT_TARGET_VERSION)'=='$(_NT_TARGET_VERSION_WS03)'">
+      <PropertyGroup>
+        <C_DEFINES Condition="'$(OVERRIDE_C_DEFINES)'!='true'">$(C_DEFINES) -D_NT_TARGET_VERSION_WINXPOR2K3=1</C_DEFINES>
+      </PropertyGroup>
+    </When>
+  </Choose>
+  <PropertyGroup>
+    <USE_LIBCMT Condition="'$(OVERRIDE_USE_LIBCMT)'!='true'">1</USE_LIBCMT>
+    <TARGETLIBS Condition="'$(OVERRIDE_TARGETLIBS)'!='true'">$(SDK_LIB_PATH)\kernel32.lib          $(SDK_LIB_PATH)\shlwapi.lib          $(SDK_LIB_PATH)\advapi32.lib          $(SDK_LIB_PATH)\crypt32.lib          $(DBGSDK_LIB_PATH)\dbgeng.lib</TARGETLIBS>
+    <UMTYPE Condition="'$(OVERRIDE_UMTYPE)'!='true'">windows</UMTYPE>
+    <SOURCES Condition="'$(OVERRIDE_SOURCES)'!='true'">store.cpp</SOURCES>
+  </PropertyGroup>
+</Project>

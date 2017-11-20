@@ -1,0 +1,11 @@
+;
+;
+
+EXPORTS
+
+    DebugExtensionInitialize
+    DebugExtensionUninitialize
+
+    store_dump
+    store_setdw
+
