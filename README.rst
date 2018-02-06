@@ -429,7 +429,7 @@ Then from Windbg, you'll be able to type:
       > 00007ff981115660 - 0xf70853f7 0x97bbb404 0xd184fa8d 0xabf7dc7b
       > 00007ff981115670 - 0x2fd8b115 0xb76d6193 0x97a903ee 0xa6f229c0
       > 00007ff981115680 - 0xb95087b5 0xa50f6868 0xe4d47778 0xfbb05b87
-    [store] DecryptStrore
+    [store] DecryptStore
     [store] DisplayStore :
       > 00007ff981115660 - 0x000003aa 0x00000000 0x00000001 0x00000000
       > 00007ff981115670 - 0x000003a9 0x00000000 0x00000003 0x00000000
@@ -448,7 +448,7 @@ Now let's say we want to modify some of the values stored in the store:
     [store] CI!g_pStore pointer address 0xfffff8018c158058
     [store] CI!g_pStore  0xffffc00102c09640
     [store] local Store  0x00007ff981115660
-    [store] DecryptStrore
+    [store] DecryptStore
     [store] current store:
     [store] DisplayStore :
       > 00007ff981115660 - 0x000003aa 0x00000000 0x00000001 0x00000000
